@@ -11,9 +11,20 @@
   	<servlet-name>proxymock</servlet-name>
   	<servlet-class>com.benben.proxymock</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ProxyMock</display-name>
+  	<servlet-name>ProxyMock</servlet-name>
+  	<servlet-class>com.benben.proxymock</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>proxymock</servlet-name>
   	<url-pattern>/proxyMock</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProxyMock</servlet-name>
+  	<url-pattern>/ProxyMock</url-pattern>
   </servlet-mapping>
   
 </web-app>
